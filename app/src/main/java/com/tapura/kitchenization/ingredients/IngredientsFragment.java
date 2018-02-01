@@ -1,9 +1,7 @@
 package com.tapura.kitchenization.ingredients;
 
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -17,7 +15,6 @@ import com.tapura.kitchenization.model.Recipe;
 
 import org.parceler.Parcels;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class IngredientsFragment extends Fragment {

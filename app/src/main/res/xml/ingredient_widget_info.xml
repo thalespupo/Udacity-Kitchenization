@@ -2,9 +2,9 @@
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:initialKeyguardLayout="@layout/ingredient_widget"
     android:initialLayout="@layout/ingredient_widget"
-    android:minHeight="40dp"
-    android:minWidth="40dp"
-    android:previewImage="@drawable/example_appwidget_preview"
-    android:resizeMode="horizontal|vertical"
-    android:updatePeriodMillis="86400000"
-    android:widgetCategory="home_screen"></appwidget-provider>
+    android:minHeight="120dp"
+    android:minWidth="200dp"
+    android:previewImage="@drawable/ic_filter_none_black"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"
+    android:configure="com.tapura.kitchenization.main.MainActivity"/>

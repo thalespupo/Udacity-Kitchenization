@@ -81,7 +81,7 @@ public class StepListActivity extends AppCompatActivity {
                 if (mTwoPane) {
                     IngredientsFragment fragment = new IngredientsFragment();
                     Bundle bundle = new Bundle();
-                    bundle.putParcelable(RECIPE_INGREDIENT,Parcels.wrap(mRecipe));
+                    bundle.putParcelable(RECIPE_INGREDIENT, Parcels.wrap(mRecipe));
                     fragment.setArguments(bundle);
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.step_container, fragment)

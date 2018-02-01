@@ -30,6 +30,7 @@
                 tool:text="grams" />
 
         </LinearLayout>
+
         <TextView
             android:id="@+id/text_view_ingredient_name"
             android:layout_width="wrap_content"

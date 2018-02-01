@@ -53,7 +53,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeAdap
         return mRecipeData;
     }
 
-    public class RecipeAdapterViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+    public class RecipeAdapterViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView mTv;
 
         public RecipeAdapterViewHolder(View itemView) {

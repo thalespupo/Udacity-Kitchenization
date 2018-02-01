@@ -1,5 +1,7 @@
 package com.tapura.kitchenization.model;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
@@ -86,5 +88,15 @@ public class Recipe {
                         ",id = '" + id + '\'' +
                         ",steps = '" + steps + '\'' +
                         "}";
+    }
+
+    public static Recipe jsonToRecipe(String json) {
+        Gson gson = new GsonBuilder().create();
+        return gson.fromJson(json, Recipe.class);
+    }
+
+    public static String recipeToJson(Recipe recipe) {
+        Gson gson = new GsonBuilder().create();
+        return gson.toJson(recipe);
     }
 }
